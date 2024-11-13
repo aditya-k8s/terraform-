@@ -1,0 +1,40 @@
+Terraform + AWS Learning Path
+Welcome to the Terraform + AWS learning repository! This guide is designed to help you learn the key concepts and practices around using Terraform in conjunction with Amazon Web Services (AWS). You'll learn by doing through hands-on projects, tasks, and by understanding key concepts and tools that will help you manage infrastructure as code.
+
+Key Concepts and Topics
+Terraform Overview
+What is Terraform?
+An open-source infrastructure as code (IaC) tool that allows you to define and provision infrastructure resources using a high-level configuration language.
+Why Terraform + AWS?
+With Terraform, you can automate the deployment of infrastructure on AWS, which improves efficiency, consistency, and scalability.
+AWS Concepts
+Amazon EC2 (Elastic Compute Cloud)
+Virtual servers in the cloud. You'll learn how to launch, configure, and manage EC2 instances.
+Amazon VPC (Virtual Private Cloud)
+Isolated network for your resources. You'll learn to create and configure VPCs, subnets, route tables, and internet gateways.
+Amazon S3 (Simple Storage Service)
+Object storage for your data. You'll learn to create and manage S3 buckets and objects.
+IAM (Identity and Access Management)
+Manage access to your AWS resources. You'll learn about users, roles, policies, and best practices for securing your infrastructure.
+Core Terraform Topics
+Learn while doing it
+This repository includes practical examples and tasks designed to help you learn while actively working on projects. Each section contains hands-on projects that you can follow and customize according to your needs.
+Programming Concepts
+Terraform uses a configuration language called HCL (HashiCorp Configuration Language), which is easy to learn for anyone with a programming background. You'll explore variables, loops, conditions, and more in Terraform.
+Projects + Tasks
+Hands-on projects and tasks that cover real-world use cases. Each project will progressively build your skills in Terraform and AWS.
+Terraform Cloud
+Terraform Cloud is a managed service that offers collaboration and remote state management features for Terraform. You'll learn how to use Terraform Cloud to store state files and collaborate on projects with teams.
+Terraform Modules
+Modules allow you to organize your Terraform code into reusable components. You'll learn how to create and use modules to break down infrastructure code into manageable pieces.
+Workspaces
+Workspaces are used to manage different environments (e.g., dev, staging, prod) in Terraform Cloud. You'll learn how to create and manage workspaces for multi-environment deployments.
+State Management
+State files keep track of the infrastructure resources Terraform manages. You'll explore how Terraform handles state files, and how to manage and store them securely.
+Getting Started
+Prerequisites:
+AWS Account: You will need an AWS account to use AWS services.
+Terraform Installation: Follow the Terraform installation guide.
+AWS CLI Installation: Optionally, install the AWS CLI for easier AWS management.
+Setting up AWS Credentials:
+Set up your AWS credentials using the AWS CLI:
